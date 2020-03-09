@@ -1,0 +1,109 @@
+.leftside, .rightside {
+  height: 100vh;
+  width: 100%;
+}
+
+.leftside {
+  background-image: url(../images/baby_shark.JPG);
+}
+
+.rightside {
+  background-image: url(../images/many_videos.png);
+  background-repeat: repeat repeat repeat repeat;
+}
+
+
+video {
+  width: 70%;
+  height: 70%;
+}
+
+.vid1 {
+  position: absolute;
+  right: 100px;
+}
+
+.vid2 {
+  position: absolute;
+  left: 1500px;
+
+}
+
+.letter_b, .letter_a, .letter_b_2, .letter_y {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 1000px;
+  position: absolute;
+}
+
+.letter_b {
+  transform: scaleX(2) rotate(270deg);
+  color: #1F7723;
+}
+
+.letter_a {
+  top: 10px;
+  color: #319E35;
+}
+
+.letter_b_2 {
+  right: 500px;
+  top: 50px;
+  color: #1B691E;
+}
+
+.letter_y {
+  top: 400px;
+  color: #175919;
+}
+
+.fist, .shark {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+.fist {
+  left: 200px;
+}
+
+.momo_instagram, .momo_buzzfeed, .momo_guardian, .momo_first_suicide, .kim,
+.momo_cbs, .momo_cnn, .momo_atlantic {
+  position: absolute;
+  width: auto;
+  height: auto;
+}
+
+.momo_buzzfeed {
+  right: 100px;
+  top: 50px;
+}
+
+.momo_guardian {
+  left: 150px;
+  bottom: 100px;
+}
+
+.momo_first_suicide {
+  top: 1000px;
+  left: 200px;
+}
+
+.kim {
+  top: 10px;
+  left: 10px;
+}
+
+.momo_cbs {
+  bottom: 200px;
+  right: 10px;
+}
+
+.momo_cnn {
+  bottom: 700px;
+  left: 30px;
+}
+
+.momo_atlantic {
+  top: 700px;
+  right: 30px;
+}
